@@ -109,7 +109,7 @@ public class Calculadora extends javax.swing.JFrame {
         double result=Math.sqrt(nro);
         jlResultado.setText("Resultado "+result);
         }catch(NumberFormatException nf){
-            System.out.println(nf);
+            //System.out.println(nf);
             JOptionPane.showMessageDialog(this,"Error usted debe ingresar un nro");
             jtNro.requestFocus();
         
